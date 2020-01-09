@@ -174,7 +174,8 @@ img {
 
 .mobile-header__logo {
   flex: 1;
-  text-align: right; }
+  text-align: right;
+  font-family: "Dancing Script", cursive; }
   .mobile-header__logo a {
     font-size: 28px;
     text-transform: none;
