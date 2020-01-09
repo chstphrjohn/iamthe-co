@@ -170,21 +170,22 @@ img {
   background: url("https://cdn.rawgit.com/encharm/Font-Awesome-SVG-PNG/master/black/svg/bars.svg");
   background-position: 50% 50%;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  margin-top: 10px; }
 
 .mobile-header__logo {
   flex: 1;
   text-align: right;
   font-family: "Dancing Script", cursive; }
   .mobile-header__logo a {
-    font-size: 28px;
+    font-size: 18px;
     text-transform: none;
     font-weight: 400;
     text-decoration: none;
     color: #111; }
     .mobile-header__logo a span {
       font-weight: 700;
-      font-size: 36px; }
+      font-size: 26px; }
     .mobile-header__logo a:hover {
       color: lightslategray; }
 
