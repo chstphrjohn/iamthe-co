@@ -89,7 +89,7 @@ img {
   .card__image:hover:before {
     opacity: 1; }
   .card__image:hover:after {
-    opacity: 0.5; }
+    opacity: 0; }
 
 .card__caption {
   background-color: white;
