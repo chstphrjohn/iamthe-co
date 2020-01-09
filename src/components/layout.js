@@ -74,15 +74,15 @@ const TemplateWrapper = ({ children }) => (
                 <li>
                     <Link to="/">Home.</Link>
                 </li>
-                <li>
-                    <Link to="https://twitter.com/connoisseur_blg?lang=en" target="_blank">Twitter.</Link>
-                </li>
                 {/*<li>*/}
-                {/*    <Link to="https://twitter.com/connoisseur_blg?lang=en">Instagram.</Link>*/}
+                {/*    <Link to="https://twitter.com/connoisseur_blg?lang=en" target="_blank">Twitter.</Link>*/}
                 {/*</li>*/}
-                <li>
-                    <Link to="https://www.facebook.com/iamtheco/" target="_blank">Facebook.</Link>
-                </li>
+                {/*/!*<li>*!/*/}
+                {/*/!*    <Link to="https://twitter.com/connoisseur_blg?lang=en">Instagram.</Link>*!/*/}
+                {/*/!*</li>*!/*/}
+                {/*<li>*/}
+                {/*    <Link to="https://www.facebook.com/iamtheco/" target="_blank">Facebook.</Link>*/}
+                {/*</li>*/}
                 {/*<li>*/}
                 {/*  <Link to="/about">About</Link>*/}
                 {/*</li>*/}
