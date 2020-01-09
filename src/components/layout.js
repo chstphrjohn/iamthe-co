@@ -47,11 +47,13 @@ const TemplateWrapper = ({ children }) => (
       />
       <div className="container__sidebar">
         <div className="sidebar">
-          <h6 className="sidebar__title">
+          {/* <h6 className="sidebar__title">
             <Link to="/">the <span>Connoisseur.</span></Link>
-          </h6>
-            {/*<Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1575041843-connoisseurlogo.png"}/></Link>*/}
+          </h6> */}
+            {/* <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1575041843-connoisseurlogo.png"}/></Link> */}
 
+            <Link to="/" className="site_logo"><img src={"../media/theConno-isseur_.png"}/></Link>
+            
           <div
             className="sidebar__intro"
             dangerouslySetInnerHTML={{
