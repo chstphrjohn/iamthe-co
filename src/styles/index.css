@@ -47,11 +47,13 @@ table {
   border-spacing: 0; }
 
 body {
-  font-family: "Bitter", serif;
+  font-family: "Courier New", serif;
   font-size: 16px;
   line-height: 1.5;
   color: #444;
   background-color: #f4f4f4; }
+  body strong {
+    font-weight: bold; }
 
 img {
   max-width: 100%; }
