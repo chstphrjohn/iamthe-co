@@ -1,0 +1,80 @@
+/*
+Error: Invalid CSS after "20px": expected expression (e.g. 1px, bold), was ";"
+        on line 46 of blocks/card.sass
+        from line 3 of index.sass
+
+41:     &:after
+42:       opacity: .5
+43: 
+44: .card__caption
+45:   background-color: white
+46:   padding: 20px;
+47: 
+48: .card__title
+49:   margin-bottom: 10px
+50: 
+51:   a
+
+Backtrace:
+blocks/card.sass:46
+index.sass:3
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/scss/parser.rb:1207:in `expected'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/script/lexer.rb:229:in `expected!'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/script/parser.rb:744:in `assert_done'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/script/parser.rb:76:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/script/parser.rb:240:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/script.rb:27:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:1159:in `parse_script'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:729:in `parse_property'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:700:in `parse_property_or_rule'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:666:in `parse_line'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:539:in `build_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:558:in `block in append_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:557:in `each'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:557:in `append_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:548:in `block in build_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:541:in `each'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:541:in `build_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:558:in `block in append_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:557:in `each'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:557:in `append_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:412:in `_to_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:315:in `to_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:327:in `block in visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `block in with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/stack.rb:88:in `with_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:326:in `visit_import'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `block in with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/stack.rb:115:in `with_frame'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/stack.rb:79:in `with_base'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:162:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `map'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:171:in `block in visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:183:in `with_environment'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:170:in `visit_children'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:190:in `visit_root'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:161:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/visitors/perform.rb:10:in `visit'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:384:in `_render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/engine.rb:301:in `render_with_sourcemap'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:391:in `run'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/exec/base.rb:52:in `parse'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/lib/sass/exec/base.rb:19:in `parse!'
+/Library/Ruby/Gems/2.3.0/gems/sass-3.4.25/bin/sass:13:in `<top (required)>'
+/usr/local/bin/sass:23:in `load'
+/usr/local/bin/sass:23:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"20px\": expected expression (e.g. 1px, bold), was \";\"\A         on line 46 of blocks/card.sass\A         from line 3 of index.sass\A \A 41:     &:after\A 42:       opacity: .5\A 43: \A 44: .card__caption\A 45:   background-color: white\A 46:   padding: 20px;\A 47: \A 48: .card__title\A 49:   margin-bottom: 10px\A 50: \A 51:   a"; }
