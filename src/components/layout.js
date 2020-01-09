@@ -58,14 +58,6 @@ const TemplateWrapper = ({ children }) => (
               __html: data.datoCmsHome.introTextNode.childMarkdownRemark.html,
             }}
           />
-          <ul className="sidebar__menu">
-            <li>
-              <Link to="/">Home</Link>
-            </li>
-            {/*<li>*/}
-            {/*  <Link to="/about">About</Link>*/}
-            {/*</li>*/}
-          </ul>
           {/*<p className="sidebar__social">*/}
           {/*  {data.allDatoCmsSocialProfile.edges.map(({ node: profile }) => (*/}
           {/*    <a*/}
@@ -77,6 +69,15 @@ const TemplateWrapper = ({ children }) => (
           {/*  ))}*/}
           {/*</p>*/}
           <div className="sidebar__copyright">{data.datoCmsHome.copyright}</div>
+
+            <ul className="sidebar__menu">
+                <li>
+                    <Link to="/">Home</Link>
+                </li>
+                {/*<li>*/}
+                {/*  <Link to="/about">About</Link>*/}
+                {/*</li>*/}
+            </ul>
         </div>
       </div>
       <div className="container__body">
