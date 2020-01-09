@@ -564,5 +564,7 @@ img {
     height: 40px; } }
 .site-logo {
   position: relative; }
+  .site-logo img {
+    max-width: 130px; }
 
 /*# sourceMappingURL=index.css.map */
