@@ -58,20 +58,20 @@ const TemplateWrapper = ({ children }) => (
               __html: data.datoCmsHome.introTextNode.childMarkdownRemark.html,
             }}
           />
-        {/*  <ul className="sidebar__menu">*/}
-        {/*    <li>*/}
-        {/*      <Link to="/">Home</Link>*/}
-        {/*    </li>*/}
-        {/*    <li>*/}
-        {/*      <Link to="/about">About</Link>*/}
-        {/*    </li>*/}
-        {/*  </ul>*/}
+          {/*<ul className="sidebar__menu">*/}
+          {/*  <li>*/}
+          {/*    <Link to="/">Home</Link>*/}
+          {/*  </li>*/}
+          {/*  <li>*/}
+          {/*    <Link to="/about">About</Link>*/}
+          {/*  </li>*/}
+          {/*</ul>*/}
 
-        {/*    <div className="bottom-sidebar">*/}
+          {/*  <div className="bottom-sidebar">*/}
 
-        {/*    </div>*/}
+          {/*  </div>*/}
 
-        {/*</div>*/}
+        </div>
       </div>
       <div className="container__body">
         <div className="container__mobile-header">
