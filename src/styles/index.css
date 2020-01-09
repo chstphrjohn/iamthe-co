@@ -176,11 +176,16 @@ img {
   flex: 1;
   text-align: right; }
   .mobile-header__logo a {
-    font-size: 16px;
-    text-transform: uppercase;
-    font-weight: bold;
+    font-size: 28px;
+    text-transform: none;
+    font-weight: 400;
     text-decoration: none;
     color: #111; }
+    .mobile-header__logo a span {
+      font-weight: 700;
+      font-size: 36px; }
+    .mobile-header__logo a:hover {
+      color: lightslategray; }
 
 .sheet {
   padding: 40px 20px;
