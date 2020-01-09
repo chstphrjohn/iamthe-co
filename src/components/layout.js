@@ -54,6 +54,13 @@ const TemplateWrapper = ({ children }) => (
 
             <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608258-iamthe.png"}/></Link>
             <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608261-theconno-isseur.png"}/></Link>
+            <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608679-iam.png"}/></Link>
+
+            
+
+
+
+
 
           <div
             className="sidebar__intro"
