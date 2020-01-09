@@ -277,13 +277,15 @@ img {
   margin-bottom: 20px;
   font-family: "Dancing Script", cursive; }
   .sidebar__title a {
-    font-size: 46px;
+    font-size: 36px;
     text-transform: none;
     font-weight: bold;
     text-decoration: none;
     color: #111; }
+    .sidebar__title a span {
+      font-weight: bold; }
     .sidebar__title a:hover {
-      border-bottom: dotted 1px #9055a2; }
+      color: lightslategray; }
 
 .sidebar__intro {
   color: #777;
