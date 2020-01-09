@@ -562,9 +562,9 @@ img {
   .social {
     width: 40px;
     height: 40px; } }
-.site-logo {
+.site_logo {
   position: relative; }
-  .site-logo img {
+  .site_logo img {
     max-width: 130px; }
 
 /*# sourceMappingURL=index.css.map */

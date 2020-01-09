@@ -58,19 +58,25 @@ const TemplateWrapper = ({ children }) => (
               __html: data.datoCmsHome.introTextNode.childMarkdownRemark.html,
             }}
           />
-          {/*<ul className="sidebar__menu">*/}
-          {/*  <li>*/}
-          {/*    <Link to="/">Home</Link>*/}
-          {/*  </li>*/}
-          {/*  <li>*/}
-          {/*    <Link to="/about">About</Link>*/}
-          {/*  </li>*/}
-          {/*</ul>*/}
-
-          {/*  <div className="bottom-sidebar">*/}
-
-          {/*  </div>*/}
-
+          <ul className="sidebar__menu">
+            <li>
+              <Link to="/">Home</Link>
+            </li>
+            {/*<li>*/}
+            {/*  <Link to="/about">About</Link>*/}
+            {/*</li>*/}
+          </ul>
+          {/*<p className="sidebar__social">*/}
+          {/*  {data.allDatoCmsSocialProfile.edges.map(({ node: profile }) => (*/}
+          {/*    <a*/}
+          {/*      key={profile.profileType}*/}
+          {/*      href={profile.url}*/}
+          {/*      target="blank"*/}
+          {/*      className={`social social--${profile.profileType.toLowerCase()}`}*/}
+          {/*    > </a>*/}
+          {/*  ))}*/}
+          {/*</p>*/}
+          <div className="sidebar__copyright">{data.datoCmsHome.copyright}</div>
         </div>
       </div>
       <div className="container__body">
