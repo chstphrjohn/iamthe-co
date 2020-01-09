@@ -47,9 +47,11 @@ const TemplateWrapper = ({ children }) => (
       />
       <div className="container__sidebar">
         <div className="sidebar">
-          <h6 className="sidebar__title">
-            <Link to="/">the <span>Connoisseur.</span></Link>
-          </h6>
+          {/*<h6 className="sidebar__title">*/}
+          {/*  <Link to="/">the <span>Connoisseur.</span></Link>*/}
+          {/*</h6>*/}
+            <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1575041843-connoisseurlogo.png"}/></Link>
+
           <div
             className="sidebar__intro"
             dangerouslySetInnerHTML={{
@@ -66,20 +68,6 @@ const TemplateWrapper = ({ children }) => (
           </ul>
 
             <div className="bottom-sidebar">
-
-                <Link to="/"><img src={"https://www.datocms-assets.com/18840/1575041843-connoisseurlogo.png"}/></Link>
-
-                {/*<p className="sidebar__social">*/}
-                {/*  {data.allDatoCmsSocialProfile.edges.map(({ node: profile }) => (*/}
-                {/*    <a*/}
-                {/*      key={profile.profileType}*/}
-                {/*      href={profile.url}*/}
-                {/*      target="blank"*/}
-                {/*      className={`social social--${profile.profileType.toLowerCase()}`}*/}
-                {/*    > </a>*/}
-                {/*  ))}*/}
-                {/*</p>*/}
-                {/*<div className="sidebar__copyright">{data.datoCmsHome.copyright}</div>*/}
 
             </div>
 

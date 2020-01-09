@@ -562,5 +562,7 @@ img {
   .social {
     width: 40px;
     height: 40px; } }
+.site-logo {
+  position: relative; }
 
 /*# sourceMappingURL=index.css.map */
