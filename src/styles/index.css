@@ -227,7 +227,7 @@ img {
   .sheet__body ul li {
     list-style-type: disc; }
   .sheet__body blockquote {
-    border-left: 4px solid #9055a2;
+    border-left: 4px solid lightslategrey;
     font-size: 1.1em;
     padding: 20px; }
 
@@ -277,13 +277,14 @@ img {
   margin-bottom: 20px;
   font-family: "Dancing Script", cursive; }
   .sidebar__title a {
-    font-size: 36px;
+    font-size: 28px;
     text-transform: none;
-    font-weight: bold;
+    font-weight: 400;
     text-decoration: none;
     color: #111; }
     .sidebar__title a span {
-      font-weight: bold; }
+      font-weight: 700;
+      font-size: 36px; }
     .sidebar__title a:hover {
       color: lightslategray; }
 
@@ -318,10 +319,10 @@ img {
       background-size: contain;
       opacity: 0.6; }
     .sidebar__menu li a:hover {
-      color: #9055a2; }
+      color: lightslategrey; }
   .sidebar__menu li.is-active a {
     font-weight: bold;
-    color: #9055a2; }
+    color: lightslategrey; }
 
 .sidebar__social {
   margin-bottom: 20px; }
