@@ -52,8 +52,9 @@ const TemplateWrapper = ({ children }) => (
           </h6> */}
             {/* <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1575041843-connoisseurlogo.png"}/></Link> */}
 
-            <Link to="/" className="site_logo"><img src={"../media/theConno-isseur_.png"}/></Link>
-            
+            <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608258-iamthe.png"}/></Link>
+            <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608261-theconno-isseur.png"}/></Link>
+
           <div
             className="sidebar__intro"
             dangerouslySetInnerHTML={{
