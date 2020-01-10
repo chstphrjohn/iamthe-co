@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children }) => (
           </h6> */}
             {/* <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1575041843-connoisseurlogo.png"}/></Link> */}
 
-            <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608258-iamthe.png"}/></Link>
+            <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578659827-iamthe.png"}/></Link>
             {/* <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608261-theconno-isseur.png"}/></Link>
             <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608679-iam.png"}/></Link> */}
           <div
@@ -101,7 +101,7 @@ const TemplateWrapper = ({ children }) => (
             <div className="mobile-header__logo">
                 {/* <Link to="/">the <span>Connoisseur.</span></Link> */}
               {/*<Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>*/}
-              <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608258-iamthe.png"}/></Link>
+              <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578659827-iamthe.png"}/></Link>
             </div>
           </div>
         </div>
