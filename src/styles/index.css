@@ -79,20 +79,20 @@ img {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.7); }
   .card__image:after {
-    width: 80px;
-    height: 80px;
-    background: url("https://cdnjs.cloudflare.com/ajax/libs/foundicons/3.0.0/svgs/fi-magnifying-glass.svg");
+    width: 85px;
+    height: 85px;
+    background: url("../media/connoisseur_logo.png");
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: contain;
-    top: 50%;
-    left: 50%;
+    bottom: -2px;
+    right: 0;
     margin-left: -40px;
     margin-top: -40px; }
   .card__image:hover:before {
     opacity: 1; }
   .card__image:hover:after {
-    opacity: 0; }
+    opacity: 0.8; }
 
 .card__caption {
   background-color: white;
@@ -177,6 +177,10 @@ img {
   flex: 1;
   text-align: right;
   font-family: "Dancing Script", cursive; }
+  .mobile-header__logo .site_logo {
+    position: relative; }
+    .mobile-header__logo .site_logo img {
+      max-width: 35px; }
   .mobile-header__logo a {
     font-size: 18px;
     text-transform: none;
@@ -561,6 +565,6 @@ img {
 .site_logo {
   position: relative; }
   .site_logo img {
-    max-width: 130px; }
+    max-width: 70px; }
 
 /*# sourceMappingURL=index.css.map */
