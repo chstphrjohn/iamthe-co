@@ -288,7 +288,7 @@ img {
   .showcase__item {
     padding-left: 40px; } }
 .sidebar__title {
-  margin: 30px 0;
+  margin-bottom: 20px;
   font-family: "Dancing Script", cursive; }
   .sidebar__title a {
     font-size: 28px;
@@ -305,7 +305,7 @@ img {
 .sidebar__intro {
   color: #777;
   font-size: 14px;
-  margin-bottom: 20px; }
+  margin: 30px 0; }
   .sidebar__intro p {
     margin-bottom: 10px; }
     .sidebar__intro p:last-child {
