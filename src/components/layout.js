@@ -95,8 +95,8 @@ const TemplateWrapper = ({children}) => (
                                          <li>
                                              <Link to="/">
                                                  {/*<img src={"https://www.datocms-assets.com/18840/1575046449-iconfinderhouse384890.svg"}/>*/}
-                                                 <img src={"https://www.datocms-assets.com/18840/1579863172-iconfinderhome216242.svg"}/>
-
+                                                 {/*<img src={"https://www.datocms-assets.com/18840/1579863172-iconfinderhome216242.svg"}/>*/}
+                                                 <img src={"https://www.datocms-assets.com/18840/1579863173-iconfinderhomehouse62874.png"}/>
                                              </Link>
                                          </li>
                                      </ul>
