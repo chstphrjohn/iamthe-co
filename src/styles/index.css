@@ -194,6 +194,9 @@ img {
     .mobile-header__logo a:hover {
       color: lightslategray; }
 
+.mobile_link img {
+  width: 45px; }
+
 .sheet {
   padding: 40px 20px;
   background-color: white; }
