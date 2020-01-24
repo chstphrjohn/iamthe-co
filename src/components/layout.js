@@ -88,22 +88,29 @@ const TemplateWrapper = ({children}) => (
                          <div className="container__body">
                              <div className="container__mobile-header">
                                  <div className="mobile-header">
-                                     <div className="mobile-header__menu">
-                                         <Link to="#" data-js="toggleSidebar"/>
-                                     </div>
+                                     {/*<div className="mobile-header__menu">*/}
+                                     {/*    <Link to="#" data-js="toggleSidebar"/>*/}
+                                     {/*</div>*/}
+                                     <ul className="mobile_link">
+                                         <li>
+                                             <Link to="/">
+                                                 <img src={"https://www.datocms-assets.com/18840/1575046449-iconfinderhouse384890.svg"}/>
+                                             </Link>
+                                         </li>
+                                     </ul>
 
-                                     <div className="mobile-menu">
+                                     {/*<div className="mobile-menu">*/}
 
-                                         <ul className="sidebar__menu">
-                                             <li>
-                                                 <Link to="/">Home.</Link>
-                                             </li>
-                                             <li>
-                                                 <Link to="/about">About.</Link>
-                                             </li>
-                                         </ul>
+                                     {/*    <ul className="sidebar__menu">*/}
+                                     {/*        <li>*/}
+                                     {/*            <Link to="/">Home.</Link>*/}
+                                     {/*        </li>*/}
+                                     {/*        <li>*/}
+                                     {/*            <Link to="/about">About.</Link>*/}
+                                     {/*        </li>*/}
+                                     {/*    </ul>*/}
 
-                                     </div>
+                                     {/*</div>*/}
 
                                      <div className="mobile-header__logo">
                                          {/* <Link to="/">the <span>Connoisseur.</span></Link> */}
