@@ -94,7 +94,9 @@ const TemplateWrapper = ({children}) => (
                                      <ul className="mobile_link">
                                          <li>
                                              <Link to="/">
-                                                 <img src={"https://www.datocms-assets.com/18840/1575046449-iconfinderhouse384890.svg"}/>
+                                                 {/*<img src={"https://www.datocms-assets.com/18840/1575046449-iconfinderhouse384890.svg"}/>*/}
+                                                 <img src={"https://www.datocms-assets.com/18840/1579863172-iconfinderhome216242.svg"}/>
+
                                              </Link>
                                          </li>
                                      </ul>
