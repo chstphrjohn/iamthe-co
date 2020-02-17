@@ -53,7 +53,7 @@ const TemplateWrapper = ({children}) => (
                                  {/* <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1575041843-connoisseurlogo.png"}/></Link> */}
 
                                  <Link to="/" className="site_logo"><img
-                                     src={"https://www.datocms-assets.com/18840/1581628374-iamthe.png"}/></Link>
+                                     src={"https://www.datocms-assets.com/18840/1581717652-iamthe.png"}/></Link>
                                  {/* <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608261-theconno-isseur.png"}/></Link>
             <Link to="/" className="site_logo"><img src={"https://www.datocms-assets.com/18840/1578608679-iam.png"}/></Link> */}
                                  <div
@@ -118,7 +118,7 @@ const TemplateWrapper = ({children}) => (
                                          {/* <Link to="/">the <span>Connoisseur.</span></Link> */}
                                          {/*<Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>*/}
                                          <Link to="/" className="site_logo"><img
-                                             src={"https://www.datocms-assets.com/18840/1581628374-iamthe.png"}/></Link>
+                                             src={"https://www.datocms-assets.com/18840/1581717652-iamthe.png"}/></Link>
                                      </div>
                                  </div>
                              </div>
